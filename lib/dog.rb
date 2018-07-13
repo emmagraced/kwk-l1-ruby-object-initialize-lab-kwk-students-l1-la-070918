@@ -7,7 +7,7 @@ class Dog
       if @breeds == ""
         breed = "mutt"
       else 
-        breed = "#{breeds}"
+        breed = "#{breed}"
       end
   end
 end
