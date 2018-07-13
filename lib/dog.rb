@@ -6,13 +6,13 @@ class Dog
   def breed
       if @breeds == ""
         breed = "mutt"
-      else breed = false
-        breed = "golden retriever"
+      else 
+        breed= "#{breed}"
       end
   end
 end
 end
-a_dog=Dog.new("Teddy","")
+a_dog=Dog.new("Teddy","gg")
 puts a_dog.name
 puts a_dog.breed
 
