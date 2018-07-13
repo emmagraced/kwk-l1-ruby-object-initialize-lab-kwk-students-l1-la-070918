@@ -12,7 +12,7 @@ class Dog
   end
 end
 end
-a_dog=Dog.new("Teddy","gghhj")
+a_dog=Dog.new("Teddy","")
 puts a_dog.name
 puts a_dog.breed
 
