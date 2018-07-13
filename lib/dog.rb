@@ -7,7 +7,7 @@ class Dog
       if @breeds == ""
         breed = "mutt"
       else 
-        breed= breed
+        @breed= breed
       end
   end
 end
